@@ -1,0 +1,151 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>BSteyaert</title>
+  <subtitle>A culmination of documentation of things built, learned, maintained | Creative - Solver - Enginner - Tinkerer - Mechanic</subtitle>
+  <updated>2024-06-16T16:12:26-07:00</updated>
+  <author>
+    <name>Benjamin Steyaert</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 Benjamin Steyaert </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Home Lab Tour 2024</title>
+    <link href="http://localhost:4000/posts/homelab-tour-2024/" rel="alternate" type="text/html" title="Home Lab Tour 2024" />
+    <published>2024-06-02T00:00:00-07:00</published>
+  
+    <updated>2024-06-02T00:00:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/homelab-tour-2024/</id>
+    <content src="http://localhost:4000/posts/homelab-tour-2024/" />
+    <author>
+      <name>Benjamin Steyaert</name>
+    </author>
+
+  
+    
+    <category term="hardware" />
+    
+    <category term="homelab" />
+    
+  
+
+  <summary>Welcome to my Home Lab. Let&amp;#39;s take a quick look at it&amp;#39;s current state in 2024 and what is up next!</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Closet Lighting with Automation</title>
+    <link href="http://localhost:4000/posts/closet-lighting-with-automation/" rel="alternate" type="text/html" title="Closet Lighting with Automation" />
+    <published>2024-06-02T00:00:00-07:00</published>
+  
+    <updated>2024-06-02T00:00:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/closet-lighting-with-automation/</id>
+    <content src="http://localhost:4000/posts/closet-lighting-with-automation/" />
+    <author>
+      <name>Benjamin Steyaert</name>
+    </author>
+
+  
+    
+    <category term="hardware" />
+    
+    <category term="automation" />
+    
+    <category term="esphome" />
+    
+  
+
+  <summary>Building a smart controller to add lighting to our dark closets.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Automated Litter-Robot</title>
+    <link href="http://localhost:4000/posts/litter-robot-notification/" rel="alternate" type="text/html" title="Automated Litter-Robot" />
+    <published>2024-06-01T00:00:00-07:00</published>
+  
+    <updated>2024-06-01T00:00:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/litter-robot-notification/</id>
+    <content src="http://localhost:4000/posts/litter-robot-notification/" />
+    <author>
+      <name>Benjamin Steyaert</name>
+    </author>
+
+  
+    
+    <category term="automation," />
+    
+    <category term="home-assistant" />
+    
+  
+
+  <summary>Intro
+
+Process
+
+  Monitor the Litter-Robot on waste level change
+  When the waste level becomes a concern, notify
+  When the waste level becomes critical, notify and change lights
+  If the status of the litter robot status is anomalous, notify and change lights
+  create a snooze button to change the lights back to normal for X amount of time
+
+
+Code
+alias: Litter-Robot
+description: &amp;quot;&amp;quot;
+trigger:
+ ...</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Add Some Automated Lighting to the Kitchen</title>
+    <link href="http://localhost:4000/posts/motion-activated-under-cabinet-lighting/" rel="alternate" type="text/html" title="Add Some Automated Lighting to the Kitchen" />
+    <published>2023-08-13T00:00:00-07:00</published>
+  
+    <updated>2023-08-13T00:00:00-07:00</updated>
+  
+    <id>http://localhost:4000/posts/motion-activated-under-cabinet-lighting/</id>
+    <content src="http://localhost:4000/posts/motion-activated-under-cabinet-lighting/" />
+    <author>
+      <name>Benjamin Steyaert</name>
+    </author>
+
+  
+    
+  
+
+  <summary>Notes
+
+  
+
+
+Questions
+
+  
+
+
+Related links
+-</summary>
+
+  </entry>
+
+</feed>
+
+
