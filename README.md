@@ -29,3 +29,19 @@ the basic environment. [Git](https://git-scm.com/) also needs to be installed.
 ```console
 $ bundle
 ```
+
+#### Build the site and make it available on a local server
+```
+bundle exec jekyll serve
+```
+Browse to http://localhost:4000
+
+#### Build the site for production
+```
+JEKYLL_ENV=production bundle exec jekyll build
+```
+Check the output content via http_server
+```
+npx http-server ./_site
+```
+After confirming everything looks good, scp contents of `_site` to DigitalOcean

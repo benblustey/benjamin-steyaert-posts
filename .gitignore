@@ -7,10 +7,11 @@ Gemfile.lock
 .jekyll-cache
 .jekyll-metadata
 _site
-
+_posts/*
+assets/img/posts
 # RubyGems
 *.gem
-
+*.zip
 # NPM dependencies
 node_modules
 package-lock.json
