@@ -2,16 +2,14 @@
 title: Automated Litter-Robot
 description: 
 date: 2024-06-01
-categories: automation, home-assistant
+categories: automation, home-assistant,
 tags:
   - Home-Assistant
-image: /assets/img/posts/home-lab-tour-2024-sm.jpg
+  - automation
 pin: false
 ---
-
 ## Intro
-
-
+Litter-Robot makes a great automated litter box for our furs. Using their product for over 10 years, I've save countless scoops of smelly and dusty litter. Sometime the out of mind mentality can be a blessing, but reminders and alerts when something goes wrong is need.
 ## Process
 * Monitor the Litter-Robot on waste level change
 * When the waste level becomes a concern, notify
@@ -22,7 +20,7 @@ pin: false
 ## Code
 ``` yaml
 alias: Litter-Robot
-description: ""
+description: "Notification Automation for the Litter-Robot"
 trigger:
   - platform: state
     entity_id:
@@ -124,9 +122,6 @@ action:
           title: Litter-Robot Waste Reset
     enabled: true
 mode: single
-
 ```
-
-
 ## Whats Next?
--
+- Logic to automatically attempt to poser cycle on error
